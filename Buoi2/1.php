@@ -1,4 +1,13 @@
 <?php 
+function check_number3($number){
+    if ($number %3 == 0){
+        return 1;
+    }
+    else 
+    {
+        return 0;
+    }
+};
 function ktrachiahet3($number){
     if ($number %3 == 0){
         echo "</br> Số " . $number . " Chia hết 3";
